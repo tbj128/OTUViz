@@ -1,0 +1,90 @@
+body {
+  padding-top: 50px;
+}
+
+.editor {
+	position: fixed;
+	left:0px;
+	top:50px;
+	bottom:0px;
+	width:360px;
+	border-right:1px solid #E8E8E8;
+	padding:20px;
+}
+
+.editor label {
+	margin-top:12px;
+}
+
+.editor .pad-bottom {
+	margin-bottom:4px;
+}
+
+.welcome-container {
+	margin-top:60px;
+}
+
+.analysis-container {
+	margin-left:360px;
+	padding:20px;
+}
+
+/**
+ * Navbar
+ */
+.navbar {
+	border-bottom: 1px solid #E8E8E8;
+	background:#FFF;
+}
+
+.navbar .container {
+	width:100%;
+	margin-left:6px;
+}
+
+/**
+ * D3 Custom
+ */
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+
+.tooltip {
+  position: absolute;
+  width: 200px;
+  height: 28px;
+  pointer-events: none;
+}
+
+
+/**
+ * Form
+ */
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
